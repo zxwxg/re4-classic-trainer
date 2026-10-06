@@ -15,7 +15,9 @@
 
 ## التحميل
 
-آخر نسخة جاهزة في صفحة [Releases](../../releases/latest) — ملف واحد، بدون تثبيت.
+**الموقع الرسمي:** https://zxwxg.github.io/re4-classic-trainer/
+
+**آخر نسخة جاهزة:** [Releases v1.0.0](https://github.com/zxwxg/re4-classic-trainer/releases/latest) — ملف واحد `RE4ClassicTrainer.exe` (19.8 ميجا)، بدون تثبيت.
 شغّله كمسؤول (Run as administrator) لأنه يكتب في مجلد اللعبة.
 
 ## تشغيل الكود من المصدر
@@ -62,7 +64,7 @@ An external Windows trainer (single `.exe`) for **Resident Evil 4 Classic** (Ste
 - 🧯 **Safe backups** — every original file is stored (size + SHA-256) and can be restored.
 - 🌐 **Bilingual website** (Arabic / English) in [`website/`](website/).
 
-**Download:** the latest build is on the [Releases](../../releases/latest) page.
+**Download:** the latest build is on the [Releases page](https://github.com/zxwxg/re4-classic-trainer/releases/latest) · **Live site:** https://zxwxg.github.io/re4-classic-trainer/
 
 **From source:** `py -m pip install customtkinter pillow` then `py -m re4_trainer` (build with `build_exe.bat`).
 
