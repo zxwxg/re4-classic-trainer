@@ -21,3 +21,7 @@ settings.json
 state.json
 trainer.log
 tmp_extract/
+
+# local design references
+TAKE FROIM HERE.png
+*.code-workspace
