@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DULE — RE4 Classic Trainer</title>
+<meta name="description" content="مدرّب Resident Evil 4 Classic: سكنات ليون، بعث فوري، شيك بوينت، ونسخ احتياطية — ملف واحد .exe">
+<meta property="og:title" content="DULE — RE4 Classic Trainer">
+<meta property="og:description" content="Leon skins, instant respawn, checkpoints and safe backups for Resident Evil 4 Classic.">
+<meta property="og:image" content="assets/img/dule-keyart.png">
+<meta name="theme-color" content="#050506">
+<link rel="icon" href="assets/img/icon.png">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<div class="progress" id="progress"></div>
+
+<header class="nav" id="nav">
+  <div class="wrap nav-in">
+    <a class="brand" href="#top">
+      <img src="assets/img/dule-badge-512.png" alt="DULE">
+      <span>
+        <b>D U L E</b>
+        <i data-i18n="hero.wordsub"><b>RE4</b> CLASSIC TRAINER</i>
+      </span>
+    </a>
+
+    <nav class="links" id="links">
+      <a href="#features" data-i18n="nav.features">المميزات</a>
+      <a href="#how" data-i18n="nav.how">طريقة الاستخدام</a>
+      <a href="#why" data-i18n="nav.why">لماذا السكن ما يظهر؟</a>
+      <a href="#gallery" data-i18n="nav.gallery">الصور</a>
+      <a href="#faq" data-i18n="nav.faq">الأسئلة</a>
+    </nav>
+
+    <div class="nav-side">
+      <button class="lang" id="langBtn" type="button" title="">
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3.5 3 14 0 18M12 3c-3 3.5-3 14 0 18"/></svg>
+        <span data-i18n="nav.lang">EN</span>
+      </button>
+      <a class="btn btn-primary btn-sm" href="#download" data-i18n="nav.download">تحميل</a>
+      <button class="burger" id="burger" type="button" aria-label="menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ============================ HERO ============================ -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div class="hero-copy reveal">
+        <p class="kicker" data-i18n="hero.kicker">Resident Evil 4 · Classic (2005 / UHD)</p>
+        <h1 data-i18n="hero.title">كل شي تحتاجه في <span class="accent">ملف واحد</span></h1>
+        <p class="lead" data-i18n="hero.lead">سكنات ليون في بدلتيه، بعث فوري لحظة الموت بدون أي ضغطة زر، شيك بوينت لاختصارك، تتبّع تلقائي لنسخة اللعبة اللي تشغّلها، ونسخ احتياطية آمنة.</p>
+
+        <div class="cta">
+          <a class="btn btn-primary" href="#download" data-i18n="hero.cta1">تحميل الترينر</a>
+          <a class="btn btn-ghost" href="#features" data-i18n="hero.cta2">استعرض المميزات</a>
+        </div>
+
+        <ul class="ticks">
+          <li data-i18n="hero.tick1">ملف واحد <code>.exe</code> بدون تثبيت</li>
+          <li data-i18n="hero.tick2">يشتغل مع موداتك (HD Project · re4_tweaks · X3Audio)</li>
+          <li data-i18n="hero.tick3">ما يحاكي أي إدخال إلا كخيار أخير</li>
+        </ul>
+
+        <div class="badges">
+          <span class="chip" data-i18n="hero.badge1">يدعم المودات</span>
+          <span class="chip" data-i18n="hero.badge2">بدون إنترنت</span>
+          <span class="chip" data-i18n="hero.badge3">نسخ احتياطي تلقائي</span>
+        </div>
+      </div>
+
+      <div class="hero-art reveal">
+        <span class="ring"></span>
+        <img src="assets/img/dule-badge.png" alt="DULE — RE4 Classic Trainer">
+        <div class="wordmark" data-i18n="hero.wordmark">DULE</div>
+        <div class="wordmark-sub" data-i18n="hero.wordsub"><b>RE4</b> CLASSIC TRAINER</div>
+      </div>
+    </div>
+
+    <div class="wrap stats reveal">
+      <div><b class="count" data-count="250">0</b><span data-i18n="stats.s1">فحص صحة في الثانية</span></div>
+      <div><b class="count" data-count="0">0</b><span data-i18n="stats.s2">ضغطة عند الموت</span></div>
+      <div><b class="count" data-count="2">0</b><span data-i18n="stats.s3">بدلة ليون (Normal + Mafia)</span></div>
+      <div><b class="count" data-count="1">0</b><span data-i18n="stats.s4">ملف .exe مستقل</span></div>
+    </div>
+  </section>
+
+  <!-- ============================ BAND ============================ -->
+  <div class="band reveal">
+    <div class="band-in">
+      <span class="star">✦</span>
+      <p data-i18n="band.text">صنع بواسطة <b>ABO 3MAD</b> — سيرفر DULE · أداة RE4 Classic</p>
+      <span class="star">✦</span>
+    </div>
+  </div>
+
+  <!-- ========================== FEATURES ========================== -->
+  <section class="sec" id="features">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="sec-no">01</span>
+        <h2 class="sec-title" data-i18n="features.title">المميزات</h2>
+      </div>
+      <p class="sec-sub reveal" data-i18n="features.sub">كل ميزة مبنية على تجربة حقيقية مع اللعبة — مو مجرد واجهة.</p>
+
+      <div class="cards">
+        <article class="card reveal">
+          <div class="ico"><svg viewBox="0 0 24 24"><path d="M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7l8-4z"/></svg></div>
+          <h3 data-i18n="f1.t">سكنات ليون — البدلتين</h3>
+          <p data-i18n="f1.d"></p>
+        </article>
+        <article class="card reveal">
+          <div class="ico"><svg viewBox="0 0 24 24"><path d="M13 2L4.5 13H11l-1 9 8.5-11H12l1-9z"/></svg></div>
+          <h3 data-i18n="f2.t">بعث فوري (Skip Death)</h3>
+          <p data-i18n="f2.d"></p>
+        </article>
+        <article class="card reveal">
+          <div class="ico"><svg viewBox="0 0 24 24"><path d="M12 21s-7-4.5-7-10V6l7-3 7 3v5c0 5.5-7 10-7 10z"/><path d="M9 11.5l2 2 4-4"/></svg></div>
+          <h3 data-i18n="f3.t">حماية من الضرر (اختياري)</h3>
+          <p data-i18n="f3.d"></p>
+        </article>
+        <article class="card reveal">
+          <div class="ico"><svg viewBox="0 0 24 24"><path d="M5 4h11l3 3v13H5z"/><path d="M9 4v6h6V4M9 20v-6h6v6"/></svg></div>
+          <h3 data-i18n="f4.t">شيك بوينت</h3>
+          <p data-i18n="f4.d"></p>
+        </article>
+        <article class="card reveal">
+          <div class="ico"><svg viewBox="0 0 24 24"><path d="M3 7h6l2 3h10v9H3z"/><path d="M3 7V5h6l2 3"/></svg></div>
+          <h3 data-i18n="f5.t">يتّبع نسخة اللعبة تلقائياً</h3>
+          <p data-i18n="f5.d"></p>
+        </article>
+        <article class="card reveal">
+          <div class="ico"><svg viewBox="0 0 24 24"><path d="M20 12a8 8 0 10-3 6.2"/><path d="M20 6v6h-6"/></svg></div>
+          <h3 data-i18n="f6.t">إعادة تشغيل اللعبة بضغطة</h3>
+          <p data-i18n="f6.d"></p>
+        </article>
+        <article class="card reveal">
+          <div class="ico"><svg viewBox="0 0 24 24"><path d="M4 7h16v12H4z"/><path d="M8 7V4h8v3M9 13h6"/></svg></div>
+          <h3 data-i18n="f7.t">نسخ احتياطية آمنة</h3>
+          <p data-i18n="f7.d"></p>
+        </article>
+        <article class="card reveal">
+          <div class="ico"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><path d="M12 8v4l3 2"/></svg></div>
+          <h3 data-i18n="f8.t">واجهة تحكم كاملة</h3>
+          <p data-i18n="f8.d"></p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================ HOW ============================ -->
+  <section class="sec alt" id="how">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="sec-no">02</span>
+        <h2 class="sec-title" data-i18n="how.title">طريقة تغيير السكن في 4 خطوات</h2>
+      </div>
+      <div class="steps">
+        <div class="step reveal"><i>1</i><h4 data-i18n="how.1t">أضف السكن</h4><p data-i18n="how.1d"></p></div>
+        <div class="step reveal"><i>2</i><h4 data-i18n="how.2t">اختر البدلة</h4><p data-i18n="how.2d"></p></div>
+        <div class="step reveal"><i>3</i><h4 data-i18n="how.3t">اضغط Apply Selected</h4><p data-i18n="how.3d"></p></div>
+        <div class="step reveal"><i>4</i><h4 data-i18n="how.4t">افتح اللعبة و Load Game</h4><p data-i18n="how.4d"></p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================ WHY ============================ -->
+  <section class="sec" id="why">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="sec-no">03</span>
+        <h2 class="sec-title" data-i18n="why.title">لماذا كان السكن لا يظهر؟</h2>
+      </div>
+      <p class="sec-sub reveal" data-i18n="why.sub">معظم سكنات ليون في الإنترنت تحتوي بدلة واحدة فقط.</p>
+
+      <div class="why">
+        <div class="why-card reveal">
+          <div class="tag" data-i18n="why.normalTag">البدلة العادية</div>
+          <h3 data-i18n="why.normalTitle">Normal outfit</h3>
+          <ul>
+            <li data-i18n="why.normal1"></li>
+            <li data-i18n="why.normal2"></li>
+            <li data-i18n="why.normal3"></li>
+          </ul>
+        </div>
+
+        <div class="why-arrow reveal">
+          <svg viewBox="0 0 24 24"><path d="M4 12h14M13 7l5 5-5 5"/></svg>
+          <p data-i18n="why.arrow">السكن فيه <b>pl08</b> فقط؟</p>
+        </div>
+
+        <div class="why-card reveal">
+          <div class="tag" data-i18n="why.mafiaTag">البدلة الـ Mafia</div>
+          <h3 data-i18n="why.mafiaTitle">Mafia outfit</h3>
+          <ul>
+            <li data-i18n="why.mafia1"></li>
+            <li data-i18n="why.mafia2"></li>
+            <li data-i18n="why.mafia3"></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="callout reveal" data-i18n="why.callout"></div>
+    </div>
+  </section>
+
+  <!-- ========================== GALLERY ========================== -->
+  <section class="sec alt" id="gallery">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="sec-no">04</span>
+        <h2 class="sec-title" data-i18n="gallery.title">صور من البرنامج</h2>
+      </div>
+      <div class="tabs reveal">
+        <button class="tab on" data-tab="overview" data-i18n="gallery.t1">نظرة عامة</button>
+        <button class="tab" data-tab="skins" data-i18n="gallery.t2">السكنات</button>
+        <button class="tab" data-tab="gameplay" data-i18n="gallery.t3">اللعب</button>
+        <button class="tab" data-tab="checkpoint" data-i18n="gallery.t4">الشيك بوينت</button>
+      </div>
+      <div class="shots reveal">
+        <img class="shot on" id="shot-overview"   src="assets/img/app-overview.png"   alt="">
+        <img class="shot"    id="shot-skins"      src="assets/img/app-skins.png"      alt="">
+        <img class="shot"    id="shot-gameplay"   src="assets/img/app-gameplay.png"   alt="">
+        <img class="shot"    id="shot-checkpoint" src="assets/img/app-checkpoint.png" alt="">
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================== SAFETY =========================== -->
+  <section class="sec" id="safety">
+    <div class="wrap grid2">
+      <div class="reveal">
+        <div class="sec-head">
+          <span class="sec-no">05</span>
+          <h2 class="sec-title" data-i18n="safety.title">أمان أولاً</h2>
+        </div>
+        <p class="sec-sub" data-i18n="safety.sub"></p>
+        <ul class="ticks big">
+          <li data-i18n="safety.1"></li>
+          <li data-i18n="safety.2"></li>
+          <li data-i18n="safety.3"></li>
+          <li data-i18n="safety.4"></li>
+          <li data-i18n="safety.5"></li>
+        </ul>
+      </div>
+      <div class="panel reveal">
+        <h4 data-i18n="safety.panel"></h4>
+        <div class="kv"><span data-i18n="safety.k1"></span><code>%LOCALAPPDATA%\RE4ClassicTrainer\settings.json</code></div>
+        <div class="kv"><span data-i18n="safety.k2"></span><code>state.json</code></div>
+        <div class="kv"><span data-i18n="safety.k3"></span><code>skins\</code></div>
+        <div class="kv"><span data-i18n="safety.k4"></span><code>backups\game\&lt;copy&gt;\</code></div>
+        <div class="kv"><span data-i18n="safety.k5"></span><code>checkpoints\last\</code></div>
+        <div class="kv"><span data-i18n="safety.k6"></span><code>logs\trainer.log</code></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================= FAQ ============================= -->
+  <section class="sec alt" id="faq">
+    <div class="wrap narrow">
+      <div class="sec-head reveal">
+        <span class="sec-no">06</span>
+        <h2 class="sec-title" data-i18n="faq.title">الأسئلة الشائعة</h2>
+      </div>
+
+      <details class="faq reveal" open>
+        <summary data-i18n="faq.q1"></summary>
+        <p data-i18n="faq.a1"></p>
+      </details>
+      <details class="faq reveal">
+        <summary data-i18n="faq.q2"></summary>
+        <p data-i18n="faq.a2"></p>
+      </details>
+      <details class="faq reveal">
+        <summary data-i18n="faq.q3"></summary>
+        <p data-i18n="faq.a3"></p>
+      </details>
+      <details class="faq reveal">
+        <summary data-i18n="faq.q4"></summary>
+        <p data-i18n="faq.a4"></p>
+      </details>
+      <details class="faq reveal">
+        <summary data-i18n="faq.q5"></summary>
+        <p data-i18n="faq.a5"></p>
+      </details>
+      <details class="faq reveal">
+        <summary data-i18n="faq.q6"></summary>
+        <p data-i18n="faq.a6"></p>
+      </details>
+      <details class="faq reveal">
+        <summary data-i18n="faq.q7"></summary>
+        <p data-i18n="faq.a7"></p>
+      </details>
+      <details class="faq reveal">
+        <summary data-i18n="faq.q8"></summary>
+        <p data-i18n="faq.a8"></p>
+      </details>
+    </div>
+  </section>
+
+  <!-- =========================== DOWNLOAD =========================== -->
+  <section class="sec" id="download">
+    <div class="wrap">
+      <div class="dl reveal">
+        <div class="dl-copy">
+          <h2 data-i18n="dl.title">حمّل النسخة الجاهزة</h2>
+          <p data-i18n="dl.text"></p>
+          <ul class="ticks">
+            <li data-i18n="dl.1"></li>
+            <li data-i18n="dl.2"></li>
+            <li data-i18n="dl.3"></li>
+          </ul>
+          <a class="btn btn-primary btn-lg" href="#" onclick="return false" data-i18n="dl.button">تحميل RE4 Classic Trainer.exe</a>
+          <small data-i18n="dl.small"></small>
+        </div>
+        <div class="dl-icon">
+          <img src="assets/img/dule-badge.png" alt="DULE">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================ MADE BY ============================ -->
+  <section class="made reveal" id="made">
+    <div class="wrap made-in">
+      <img class="made-art" src="assets/img/dule-badge.png" alt="">
+      <p class="made-kicker" data-i18n="made.title">صنع بواسطة</p>
+      <h2 class="made-name" data-i18n="made.name">ABO 3MAD</h2>
+      <p class="made-server" data-i18n="made.server">DULE server</p>
+      <p class="made-text" data-i18n="made.text"></p>
+      <a class="btn btn-ghost" href="#top" data-i18n="made.toTop">للأعلى</a>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-in">
+    <div class="brand">
+      <img src="assets/img/dule-badge-512.png" alt="">
+      <span>
+        <b>D U L E</b>
+        <i>MADE BY ABO 3MAD</i>
+      </span>
+    </div>
+    <p>
+      <span data-i18n="footer.note"></span>
+      <br><span class="rights">© <span id="year">2026</span> DULE server — </span><span data-i18n="footer.rights"></span>
+    </p>
+  </div>
+</footer>
+
+<script src="assets/i18n.js"></script>
+<script src="assets/script.js"></script>
+</body>
+</html>
