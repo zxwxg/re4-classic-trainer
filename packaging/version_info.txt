@@ -1,0 +1,31 @@
+# UTF-8
+VSVersionInfo(
+  ffi=FixedFileInfo(
+    filevers=(1, 0, 0, 0),
+    prodvers=(1, 0, 0, 0),
+    mask=0x3F,
+    flags=0x0,
+    OS=0x40004,
+    fileType=0x1,
+    subtype=0x0,
+    date=(0, 0)
+  ),
+  kids=[
+    StringFileInfo([
+      StringTable(
+        u'040904B0',
+        [
+          StringStruct(u'CompanyName', u'ABO 3MAD DULE server'),
+          StringStruct(u'FileDescription', u'Resident Evil 4 Classic Trainer (external trainer for RE4 2005 / UHD)'),
+          StringStruct(u'FileVersion', u'1.0.0.0'),
+          StringStruct(u'InternalName', u'RE4ClassicTrainer'),
+          StringStruct(u'LegalCopyright', u'MADE BY ABO 3MAD DULE server'),
+          StringStruct(u'OriginalFilename', u'RE4ClassicTrainer.exe'),
+          StringStruct(u'ProductName', u'RE4 Classic Trainer'),
+          StringStruct(u'ProductVersion', u'1.0.0.0')
+        ]
+      )
+    ]),
+    VarFileInfo([VarStruct(u'Translation', [1033, 1200])])
+  ]
+)

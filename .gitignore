@@ -1,0 +1,23 @@
+# build / packaging output
+dist/
+build/
+*.spec
+__pycache__/
+*.pyc
+*.pyo
+
+# dev artefacts (screenshots taken while working on the UI)
+tools/shots*/
+tools/palette_*/
+tools/site_*.png
+tools/*_small.png
+tools/exe_icon.png
+tools/shot*.png
+tools/deploy.log
+tools/_*.py
+
+# local runtime data (never part of the project)
+settings.json
+state.json
+trainer.log
+tmp_extract/
