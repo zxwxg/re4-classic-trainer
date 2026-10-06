@@ -73,7 +73,7 @@ if (burger) {
 }
 
 /* =============================== scroll spy ============================== */
-const sections = ["features", "how", "why", "gallery", "faq", "download"];
+const sections = ["features", "how", "why", "gallery", "faq", "fixes", "download"];
 function spy() {
   const y = window.scrollY + 140;
   let active = "";
