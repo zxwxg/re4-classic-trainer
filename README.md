@@ -33,6 +33,11 @@ py -m re4_trainer
 build_exe.bat
 ```
 
+## النشر على GitHub
+
+دليل كامل خطوة بخطوة (الرفع، رابط التحميل، الصفحات، وكل ما هو مجاني وما هو مدفوع):
+[`PUBLISHING.md`](PUBLISHING.md)
+
 ## الموقع
 
 ```bat
