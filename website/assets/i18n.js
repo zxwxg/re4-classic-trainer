@@ -126,6 +126,7 @@ window.I18N = {
     "dl.2": "كل الأصول في ملف واحد + نسخ احتياطية على جهازك",
     "dl.3": "واجهة نظيفة تشتغل بدون إنترنت",
     "dl.button": "تحميل RE4 Classic Trainer.exe",
+    "dl.version": "الإصدار v1.0.0 · Windows 64-bit · 19.8 ميجا · بدون تثبيت",
     "dl.small": "الملف على سطح المكتب باسم <code>RE4 Classic Trainer.exe</code>. إذا نقلته لجهاز ثاني شغّله كمسؤول (Run as administrator).",
 
     "made.title": "صنع بواسطة",
@@ -135,7 +136,8 @@ window.I18N = {
     "made.toTop": "للأعلى",
 
     "footer.note": "RE4 Classic Trainer — أداة خارجية غير رسمية. اللعبة وجميع علاماتها التجارية ملك لأصحابها (Capcom).",
-    "footer.rights": "كل الحقوق محفوظة"
+    "footer.rights": "كل الحقوق محفوظة",
+    "footer.github": "المشروع على GitHub"
   },
 
   en: {
@@ -261,6 +263,7 @@ window.I18N = {
     "dl.2": "All assets in one file + backups stored on your PC",
     "dl.3": "Clean interface that runs offline",
     "dl.button": "Download RE4 Classic Trainer.exe",
+    "dl.version": "Release v1.0.0 · Windows 64-bit · 19.8 MB · no install",
     "dl.small": "The file sits on your desktop as <code>RE4 Classic Trainer.exe</code>. On another PC, run it as administrator.",
 
     "made.title": "Made by",
@@ -270,6 +273,7 @@ window.I18N = {
     "made.toTop": "Back to top",
 
     "footer.note": "RE4 Classic Trainer — an unofficial external tool. The game and all its trademarks belong to their owners (Capcom).",
-    "footer.rights": "All rights reserved"
+    "footer.rights": "All rights reserved",
+    "footer.github": "Project on GitHub"
   }
 };
